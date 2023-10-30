@@ -12,8 +12,12 @@ This `code/` directory contains test cases and all the codes we need to run the 
 
 ## Data
 
-The test data contains one file that is empty, and the rest will be of increasing sizes. For each file of a certain size, a separate file will be created that will also fall in the same size group but contain duplicates.
+In `data/` directory, the test data contains one file that is empty, and the rest will be of increasing sizes. For each file of a certain size, a separate file will be created that will also fall in the same size group but contain duplicates.
 
 ## Documents
 
 The proposal and **Average running time of the Boyer-Moore-Horspool algorithm.pdf** can be found in the `documents/` directory.
+
+## Results
+
+The `results/` directory contains the output of our project.
