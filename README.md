@@ -3,16 +3,21 @@ Extra Credit Project by [Sunwoo Baek](https://github.com/sbaek21) and [Shrivatsa
 
 ## Project Summary
 
-Our proposed final project is to implement the 'Boyer Moore Algorithm' to find the first occurrence of the specific string and a large text.
+Our proposed final project is to implement the 'Boyer Moore Algorithm' to find the first occurrence of the specific string from a large text consisting of strings.
 
 ## Code
 
-This `code/` directory contains test cases and all the codes we need to run the project.
+This `code/` directory contains test cases and all code needed to run the project.
+1. Create a `build` directory inside `code/`
+
+2. CD into `build` and run `cmake ..` and `make`.
+
+3. Modify the `main.cpp` file to run whichever `.txt` file you want to test.
 
 
 ## Data
 
-In `data/` directory, the test data contains one file that is empty, and the rest will be of increasing sizes. For each file of a certain size, a separate file will be created that will also fall in the same size group but contain duplicates.
+In `data/` directory, the test data contains multiples text files that can be used to test the algorith. One file will be empty, and the rest will contain "passages" of increasing length.  For each file of a certain size, a separate file will be created that will also fall in the same size group but contain duplicates.
 
 ## Documents
 
